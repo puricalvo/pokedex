@@ -6,9 +6,10 @@ import { PokemonMapper } from "../../infrasctructure/mappers/pokemon.mapper";
 
 
 
-export const getPokemons = async (page: number, limit: number = 20 ): Promise<Pokemon[]> => {
-
-   
+export const getPokemons = async (
+    page: number, 
+    limit: number = 20 
+): Promise<Pokemon[]> => {
 
     try {
 
